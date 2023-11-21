@@ -1,0 +1,75 @@
+<!-- Discussion Of Lec 7 (CSS-Lec 7).-->
+<!-- 
+
+Q1) What are the generic font families? Explain in details with examples?
+
+Generic font families are groups of fonts that have a similar appearance and design. 
+They are commonly used as fallback fonts when a specific font is not available. There are five generic font families defined in CSS: serif, sans-serif, monospace, cursive, and fantasy.
+Here are some examples of each generic font family:
+
+Serif fonts have finishing strokes, flared or tapering ends, or have actual serifed endings. They are often used for printed text, such as books, newspapers, and magazines. Some examples of serif fonts are Times New Roman, Georgia, and Garamond.
+
+Sans-serif fonts have plain stroke endings, without any flares or serifs. They have a modern, formal, and simple appearance, and are often used for digital text, such as websites, apps, and user interfaces. Some examples of sans-serif fonts are Arial, Helvetica, and Verdana.
+Monospace fonts have fixed-width characters, meaning that each character occupies the same amount of horizontal space.
+They are often used for code samples, typewritten text, and tabular data. Some examples of monospace fonts are Courier, Consolas, and Monaco.
+
+Cursive fonts have a handwritten or calligraphic style, with flowing and connected strokes. They are often used for decorative or informal text, such as invitations, headlines, and signatures. Some examples of cursive fonts are Brush Script, Zapfino, and Comic Sans.
+
+Fantasy fonts have a creative and expressive style, with unusual shapes and forms. They are often used for artistic or playful text, such as logos, posters, and cartoons. Some examples of fantasy fonts are Impact, Papyrus, and Harry Potter.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2)It is recommended to use each family of generic fonts in fallback style. Why?
+
+It is recommended to use each family of generic fonts in fallback style because it ensures that the text will always have a suitable font to display,
+even if the preferred font is not available. Fallback style means that you specify a list of alternative fonts in the font-family property,
+separated by commas, and ending with a generic font family name.
+
+For example:
+
+p {
+  font-family: "Roboto", "Helvetica", sans-serif;
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-->
+
+<!-- Q3)How can you insert Hoverable Table by CSS? Show me by code? -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style7(CSS-Lec 7).css">
+    <title>The Hover Table By CSS </title>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+          <th>Age</th>
+          <th>Salary</th>
+        </tr>
+        <tr>
+          <td>Hussian Dawood</td>
+          <td>Front-End_Developer</td>
+          <td>22</td>
+          <td>$15,000</td>
+        </tr>
+        <tr>
+            <td>Ali Alsudany</td>
+            <td>Back-End_Developer</td>
+            <td>20</td>
+            <td>$15,000</td>
+          </tr>
+        <tr>
+          <td>Hussain Altaye</td>
+          <td>Manger_Of_Developers</td>
+          <td>21</td>
+          <td>$50,000</td>
+        </tr>
+      </table>
+      
+</body>
+</html>
