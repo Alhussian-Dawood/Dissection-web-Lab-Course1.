@@ -1,0 +1,67 @@
+<!--  Discussion Of Lec 5 (CSS-Lec 5).-->
+<!--
+
+Q1)What are the limitations of CSS ?
+    
+Limitations of CSS : -
+
+1)Global Definition: In CSS, there is no option to declare a variable for use globally. This can lead to repetition of code and increased file size.
+
+2)Cross-Browser Issues: Different browsers can interpret CSS differently, leading to inconsistencies in the appearance of web pages.
+
+3)Control Limitations: CSS has limited control over the appearance of elements, especially when compared to languages like JavaScript. For example, it cannot control the behavior of an element when a user interacts with it.
+
+4)No Expressions: CSS does not support the use of expressions that can dynamically set the values of styling properties.
+
+5)Lack of Functions: CSS lacks the ability to create functions or methods, which can limit the reusability of code.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2)How many ways can a CSS be integrated as a web page?
+
+We have Three ways : - 
+
+1)Inline CSS: CSS rules are applied directly within the HTML tags using the style attribute.
+
+2)Internal CSS: CSS rules are included in the <head> section of the HTML file within <style> tags.
+
+3)External CSS: CSS rules are written in a separate file with a .css extension, which is linked to the HTML file using the <link> tag.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+-->
+
+<!--  Q3)Create a home page for a ressturant with what you’ve learned from HTML & CSS. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Home Page</title>
+    <link rel="stylesheet" href="style5(CSS-Lec 5).css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome To My Restaurant!</h1>
+        <h2>I Hope You enjoy To visit My Simple Restaurant Page </h2>
+    </div>
+    <div class="main">
+        <h2>About Us</h2>
+        <p>We offer delicious food with a great atmosphere.</p>
+        <h2>Menu</h2>
+        
+        <form action="index5(CSS-Lec5_Q3-Menu page ).html" target="_blank">
+            <input type="submit"></button>
+        </form>
+
+        <p>Check out our menu for a wide variety of options.</p>
+        <h2>Contact Me</h2>
+        <p>You can leave me a comment if you have some note about The Restaurant </p>
+        <br>
+        <form>
+            <label for="comment">Leave Me a comment:</label>
+            <textarea id="comment" name="comment" class="comment-box" placeholder="Write your comment here..."></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+          </form>          
+    </div>
+</body>
+</html>
