@@ -1,0 +1,31 @@
+#div1 {
+  background: linear-gradient(to bottom, #990000, #ff0000);
+  padding: 20px;
+}
+
+#div1 p {
+  background: linear-gradient(to right, #990000, #ff0000);
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* Second div with repeated image background */
+#div2 {
+  background: url() repeat-x;
+  height: 300px; /* Set an appropriate height */
+}
+
+/* Third div with fixed image and box model text */
+#div3 {
+  background: url() top right fixed no-repeat;
+  padding: 20px;
+}
+
+#boxModelText {
+  width: 400px;
+  margin: 0 auto; /* Center the text */
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,52 @@
+<!-- Discussion Of Lec 6 (CSS-Lec 6).-->
+<!-- 
+
+Q1) What are the differences between the opacity property and alpha channel in rgba or hsla?
+
+The opacity property affects the whole element and its children,while the alpha channel only affects the specific property that uses it.
+Another difference is that the opacity property can be animated, while the alpha channel cannot.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Q2)What is the most effective method for setting CSS color properties?
+
+There is many setting CSS color properties, as different methods have different advantages and disadvantages.
+However, some general guidelines are to use HEX values for simple colors, RGB or RGBA values for colors with transparency,
+HSL or HSLA values for colors with hue, saturation, or lightness adjustments, CSS custom properties for colors that need to be reused or changed,
+color keywords for common and standard colors, and color-scheme property for elements that need to adapt to the operating system’s color scheme.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+-->
+
+
+<!--
+    
+Q3)Create 3 divisions in a web page.
+• Make the first div has 3 paragraphs and each paragraph has a background with red color
+(Create a transition from darker red to a lighter).
+• Make the second div has an image background with horizontally repeated.
+• Add in the third div an image on the (right top) and make it fixed.
+• Add Box model on a text in the third div, that has Total element width equal 400px.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style(CSS-Lec 6).css">
+</head>
+<body>
+  <div id="div1">
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+  </div>
+
+  <div id="div2">
+  </div>
+
+  <div id="div3">
+    <div id="boxModelText"></div>
+  </div>
+
+</body>
+</html>
